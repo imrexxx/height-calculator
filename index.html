@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penghitung tinggi badan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Height Calculator</h1>
+      <p>Alat untuk menghitung berapa batas tinggi badan anda.</p>
+      <table cellspacing="0">
+        <tr class="coloring">
+          <td>Tinggi badan Ayah</td>
+          <td id="dh">0</td>
+        </tr>
+        <tr class="coloring2">
+          <td>Tinggi badan Ibu</td>
+          <td id="mh">0</td>
+        </tr>
+        <tr class="coloring">
+          <td>Tinggi badan maksimal anda</td>
+          <td id="ty">0</td>
+        </tr>
+        <tr class="coloring2">
+          <td>Tinggi badan maksimal anda dalam feet</td>
+          <td id="ft">0</td>
+        </tr>
+      </table>
+      <form action="#">
+        <h4>Masukkan tinggi badan ayah dan ibu</h3>
+        <input type="number" id="dad-height" placeholder=" Masukkan tinggi badan ayah" /><br />
+        <input type="number" id="mom-height" placeholder=" Masukkan tinggi badan ibu" /><br />
+        <label><input type="radio" name="gender" id="male">Laki-laki</label>
+        <label><input type="radio" name="gender" id="female">Perempuan</label>
+        <button id="calculate">Hitung</button>
+      </form>
+      <footer>
+        <p></p>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
